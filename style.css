@@ -1,0 +1,103 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 35px;
+
+}
+
+section{
+    padding: 20px;
+    background-image: url(../images/prateek-katyal-xv7-GlvBLFw-unsplash.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.formContainer{
+    max-width: 300px;
+    background-color: #b9cedcBB;
+    padding: 20px;
+    border-radius: 11px;
+   
+   
+
+}
+.input{
+    margin-top: 7px;
+}
+input, select{
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 11px;
+}
+h2{
+    font-size: 16PX;
+}
+.mb{
+    margin-bottom: 15px;
+    text-align: center;
+}
+input[type="submit"]{
+color: white;
+background:    #ff0000;
+border:        1px solid #000000;
+border-radius: 11px;
+box-shadow:    0 8px #444444;
+padding:       20px 30px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 13px"Open Sans", sans-serif;
+text-align:    center;
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+footer{
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+}
+.picture{
+    width: 300px;
+    
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    text-align: left;
+  
+
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.description h3{    
+    font-size: 24px;
+}
