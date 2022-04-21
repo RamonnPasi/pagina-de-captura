@@ -23,7 +23,7 @@ header{
 
 section{
     padding: 20px;
-    background-image: url(../images/prateek-katyal-xv7-GlvBLFw-unsplash.jpg);
+    background-image: url(./images/prateek-katyal-xv7-GlvBLFw-unsplash.jpg);
     background-size: cover;
     overflow: hidden;
     
@@ -72,7 +72,7 @@ select{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url('../images/arrow.jpg');
+    background-image: url('./images/arrow.jpg');
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
